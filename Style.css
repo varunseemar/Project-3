@@ -1,0 +1,162 @@
+body{
+    background-color: #3B4664;
+}
+
+.calc{
+    color:white;
+    margin-left: 36vw;
+    margin-top: 13vh;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight:800;
+}
+
+input{
+    display: grid;
+    background-color: #181F32;
+    width: 390px;
+    height: 125px;
+    margin-left: 36vw;
+    border-radius: 12px;
+    margin-top: 1vh;
+    color:white;
+    font-size:42px;
+    font-weight: 500;
+    text-align: right;
+}
+
+
+
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #252D44;
+    height:400px;
+    width:400px;
+    margin-top: 3vh;
+    margin-left: 36vw;
+    justify-content: center;
+    border-radius: 12px;
+    grid-column-gap: 20px;
+    align-content: space-evenly;
+}
+.grid-container > div{
+    align-content: center;
+    justify-items: center;
+    display:grid;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 12px;
+    font-weight:800;
+}
+.grid-item7{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+   
+}
+.grid-item8{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+  
+}
+.grid-item9{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+  
+}
+.grid-itemDEL{
+    background-color: #647299;
+    color:#FFFFFF;
+    width:70px;
+    height:40px;
+ 
+}
+.grid-item4{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+
+}
+.grid-item5{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+ 
+}
+.grid-item6{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+
+}
+.grid-itemadd{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+
+}
+.grid-item1{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+
+}
+.grid-item2{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+
+}
+.grid-item3{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+}
+.grid-itemsub{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+}
+.grid-itemdeci{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+   
+}
+.grid-item0{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+ 
+}
+.grid-itemdivi{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+}
+.grid-itemx{
+    background-color: #EAE3DB;
+    width:70px;
+    height:40px;
+   
+}
+.grid-itemRESET{
+    background-color: #647299;
+    color:#FFFFFF;
+    width:70px;
+    height:40px;
+    width:170px;
+    grid-column: 1 / span 2;
+}
+.grid-itemres{
+    background-color: #D13F30;
+    color:#FFFFFF;
+    width:70px;
+    height:40px;
+    width:170px;
+    grid-column: 3 / span 2;
+}
+
